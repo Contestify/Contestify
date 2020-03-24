@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background: #EAEAEA;
+}
+.logo {
+  margin-left: 1.4%;
+  position: relative;
+  top: 10%;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  position: absolute;
+  top: 0.9%;
+  left: 20%;
+}
+.navLinks * {
+  z-index: 2;
+}
+.navLink,.navSpecial {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.navSpecial {
+  font-weight: bold;
+}
+.navHoverH {
+  position: relative;
+  transition-duration: 500ms;
+  opacity: 0;
+  position: relative;
+  left: -9%;
+  z-index: 1;
+  top: 6px;
+}
+.navHoverS {
+  position: relative;
+  transition-duration: 500ms;
+  opacity: 0;
+  position: relative;
+  left: -12%;
+  z-index: 1;
+  top: 8px;
+}
+.navHoverC {
+  position: relative;
+  transition-duration: 500ms;
+  opacity: 0;
+  position: relative;
+  left: -12.2%;
+  z-index: 1;
+  top: 7px;
+}
+.navHoverR {
+  position: relative;
+  transition-duration: 500ms;
+  opacity: 0;
+  position: relative;
+  left: -10.9%;
+  z-index: 1;
+  top: 7px;
+}
+.navHoverHF {
+  position: relative;
+  transition-duration: 500ms;
+  opacity: 0;
+  position: relative;
+  left: -17.5%;
+  z-index: 1;
+  top: 7px;
+}
+.settingsPNG {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  transition-duration: 500ms;
+  position: absolute;
+  top: 1%;
+  right: 3%;
+
+}
+.settingsPNG:hover {
+  transform: rotate(15deg);
+  width: 45px;
+  height: 45px;
+}
+.settingsClosed {
+  width: 200px;
+  height: 200px;
+  background: #EAEAEA;
+  position: absolute;
+  right: 0.5%;
+  top: -220px;
+  border: 1px solid black;
+  border-top: none;
+  opacity: 1;
+}
+.settingsOpen {
+  width: 200px;
+  height: 200px;
+  background: #EAEAEA;
+  position: absolute;
+  right: 0.5%;
+  border: 1px solid black;
+  border-top: none;
+  opacity: 1;
+}
+.navLine {
+  position: absolute;
+  top: 7%;
+  left: 0;
+}
+.copyLine {
+  background: #24FF00;
+  position: absolute;
+  top: 55.5%;
+}

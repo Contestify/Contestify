@@ -1,0 +1,19 @@
+Sistemul de login/register :
+Dispune de 3 functii principale:
+
+1. Inregistrarea utilizatorilor ce nu detin un cont
+2. Logarea utilizatorilor ce detin un cont pe site si colerarea datelor deja existente cu pagina web 
+3. Resetarea parolei la cererea utilizatorului si verificarea identitatii utilizatorului 
+
+Sistemul de Ranking:
+Dispune de 3 functii pricipale:
+
+1. Testarea utilizatorilor noi inregistrati pentru a le oferi un rank cat mai apropiat de realitate
+2. Observarea progreseului utilizatorului prin urmarirea implicarii in concursuri, timpul activ pe saptamana si alte criterii relevante ce pot indica dorinta utilizatorului de a invata 
+3. Catalogarea utlizatorilor in diferite rankuri, daca acest lucru este corect din punct de vedere al progresului sau .
+
+Sistemul de listare si inregistrare a noi concursuri:
+Dispune de 2 functii pricipale:
+
+1. Preluarea datelor de la admin-ul ce doreste sa listeze un nou concurs, confimat de un fondator / co-fondator / logistic manager
+2. Listrea tuturor concursurilor relevante pentru utilizator pe o pagina de unde toti utilizatorii isi pot confirma participarea (1 sigur concurs in aceelasi timp permis)
